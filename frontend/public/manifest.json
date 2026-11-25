@@ -1,0 +1,16 @@
+{
+  "name": "HumanizedText",
+  "short_name": "HumanizedText",
+  "description": "Transform AI-generated content into natural, human-like text",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#1a1a1a",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

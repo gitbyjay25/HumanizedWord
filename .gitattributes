@@ -1,0 +1,41 @@
+# Set default behavior to automatically normalize text file line endings to LF on commit
+* text=auto eol=lf
+
+# Explicitly ensure shell scripts always retain LF line endings (crucial for Linux/macOS)
+*.sh text eol=lf
+
+# PowerShell and Windows batch scripts
+*.ps1 text
+*.bat text
+*.cmd text
+
+# Source code and config files
+*.py text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.ini text eol=lf
+*.jinja text eol=lf
+*.env* text eol=lf
+
+# Binary files - never touch or convert line endings
+*.safetensors binary
+*.bin binary
+*.pth binary
+*.pt binary
+*.pkl binary
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.svg text eol=lf
+*.woff binary
+*.woff2 binary
+*.ttf binary
